@@ -1,1 +1,3 @@
-# javascript-utilities
+# Baltimore County Javascript Utilities
+
+More to come...
