@@ -3,7 +3,11 @@
 ## Protytype Methods
 
 ### Move
+Moves an item in the array from one location to the other
 
+**Params**
+* old_index = current position (zero based indexing)
+* new_index = position you want the item to go (zero based indexing)
 **File Name**: array-move.js
 
 ```javascript
