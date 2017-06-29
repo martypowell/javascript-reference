@@ -32,3 +32,10 @@ $(document).on('click', '#resumeButton', function() {
   intervalTimer.Resume();
 });
 ```
+
+### Stop
+```javascript
+$(document).on('click', '#resumeButton', function() {
+  intervalTimer.Stop();
+});
+```
