@@ -21,7 +21,7 @@ var intervalTimer = new IntervalTimer(function() {
 
 ### Pause
 ```javascript
-$(document).on('click', '#pauseButton', function() {
+$(document).on('click', '#stopButton', function() {
   intervalTimer.Pause();
 });
 ```
