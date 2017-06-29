@@ -27,7 +27,7 @@ var IntervalTimer = (function () {
       callback();
 
       startTime = new Date();
-      timer = window.setInterval(callback, interval);
+      timer = setInterval(callback, interval);
       this.state = 1;
     }.bind(this);
 
@@ -51,7 +51,7 @@ var IntervalTimer = (function () {
       }
 
       this.state = 3;
-      window.setTimeout(timeoutCallback, this.remainingTimeInInterval);
+      setTimeout(timeoutCallback, this.remainingTimeInInterval);
     }.bind(this);
 
     this.Stop = function () {
@@ -61,3 +61,5 @@ var IntervalTimer = (function () {
     start();
   }
 })();
+
+module.exports = IntervalTimer;
