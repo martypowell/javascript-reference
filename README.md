@@ -6,7 +6,13 @@ More to come...
 
 Adds functionality to the [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) method.
 
-### Usages
+### File Name
+bc.interval-timer.js
+
+### Dependencies
+none
+
+### Usage
 ```javascript
 var intervalTimer = new IntervalTimer(function() {
   console.log("I fire every 60 seconds");
