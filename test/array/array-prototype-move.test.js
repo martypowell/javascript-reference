@@ -2,12 +2,23 @@ var assert = require('chai').assert;
 var expect = require('chai').expect;
 var sinon = require('sinon');
 
-require('../array/array-move.js');
+require('../../array/array-prototype-move.js');
 
 describe('Array Prototype Move', function(done) {
   it('should move the first item in a 4 item array to the second position ', function(done) {
     var actual = ["cat", "dog", "deer", "mouse"].move(0, 1);
     var expected = ["dog", "cat", "deer", "mouse"];
+
+    expect(actual).to.eql(expected);
+
+    done();
+  });
+
+  it('should move the first item to the end of the array when -1 is passed in ', function(done) {
+    var actual = ["cat", "dog", "deer", "mouse"].move(0, -1);
+    var expected = ["dog", "deer", "mouse", "cat"];
+
+    console.log(actual, expected)
 
     expect(actual).to.eql(expected);
 
