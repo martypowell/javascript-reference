@@ -24,3 +24,24 @@ myArr.move(0, 2);
   myArr = ["dog", "deer","cat", "rabbit"]
 */
 ```
+### Max
+Gets the maximum number from an Array
+
+```javascript
+var myMax = [2, 50, 4, 19].max();
+
+/* Result 
+myMax = 50
+*/
+```
+
+### Min
+Gets the minimum number from an Array
+
+```javascript
+var myMin = [2, 50, 4, 19].min();
+
+/* Result 
+myMin = 2 
+*/
+```
