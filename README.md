@@ -4,7 +4,7 @@ More to come...
 
 ## Tips and Tricks
 
-* [Statements and Declarations](statements-and-declarations)
+* [Statements and Declarations](statements-and-declarations#tips-and-tricks)
 
 ## Interval Timer
 
