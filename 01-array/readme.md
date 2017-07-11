@@ -45,3 +45,18 @@ var myMin = [2, 50, 4, 19].min();
 myMin = 2 
 */
 ```
+
+## Tips and Tricks
+
+### Merging
+
+If you need to merge two array you can use [Array.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+
+```javascript
+var arr1 = ['a', 'b', 'c'];
+var arr2 = ['d', 'e', 'f'];
+
+var arr3 = arr1.concat(arr2);
+
+// arr3 is a new array [ "a", "b", "c", "d", "e", "f" ]
+```
