@@ -10,7 +10,7 @@ for (var i = 0; i < array.length; i++) {
 }
 ```
 
-A better performing method is cache the array length in a variable avoiding the recalculation. 
+A better performing method is cache the array length in a variable avoiding the recalculation.
 
 **Better**
 

@@ -2,6 +2,10 @@
 
 More to come...
 
+## Tips and Tricks
+
+* [Statements and Declarations](statements-and-declarations)
+
 ## Interval Timer
 
 Adds functionality to the [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) method.
