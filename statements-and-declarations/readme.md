@@ -1,6 +1,6 @@
 ## Tips and Tricks
 
-### Caching Array Length inside For Loop
+### For Loop - Caching Array Length
 When processing large arrays the following method will recalculate the length of the each time the loop is processed.
 
 **Original**
