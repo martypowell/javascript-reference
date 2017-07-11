@@ -10,4 +10,5 @@ More to come...
 
 ## Tips and Tricks
 
+* [Arrays](01-array#tips-and-tricks)
 * [Statements and Declarations](statements-and-declarations#tips-and-tricks)
