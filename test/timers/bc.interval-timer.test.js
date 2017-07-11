@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 var sinon = require('sinon');
-var IntervalTimer = require('../bc.interval-timer.js');
+var IntervalTimer = require('../../03-timers/bc.interval-timer.js');
 
 describe('Interval Timer', function() {
   var self = this;
