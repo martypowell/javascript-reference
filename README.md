@@ -8,10 +8,10 @@ More to come...
 * [Statements and Declarations](02-statements-and-declarations)
 * [Timers](03-timers)
 
-## Tooling
-* [Eslint configuration](https://github.com/baltimorecounty/eslint-config)
-
 ## Tips and Tricks
 
 * [Arrays](01-array#tips-and-tricks)
 * [Statements and Declarations](statements-and-declarations#tips-and-tricks)
+
+## Tooling
+* [Eslint configuration](https://github.com/baltimorecounty/eslint-config)
