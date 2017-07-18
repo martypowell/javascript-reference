@@ -1,4 +1,4 @@
-# Baltimore County Javascript Utilities
+# Baltimore County Javascript Reference
 
 More to come...
 
