@@ -14,4 +14,4 @@ More to come...
 * [Statements and Declarations](statements-and-declarations#tips-and-tricks)
 
 ## Tooling
-* [Eslint configuration](https://github.com/baltimorecounty/eslint-config)
+* [Airbnb's Eslint configuration](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) - I really like [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript) so I use their eslint configuration
