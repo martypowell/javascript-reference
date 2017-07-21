@@ -1,6 +1,6 @@
-# Baltimore County Javascript Reference
+# Javascript Reference
 
-More to come...
+Examples, tips and tricks from my experience as a developer. My best atttempt at documenting best practices and resusable code.
 
 ## Table of Contents
 
