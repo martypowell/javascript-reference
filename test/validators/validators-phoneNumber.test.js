@@ -4,7 +4,7 @@ var sinon = require('sinon');
 
 var validators = require('../../05-validators/validators.js');
 
-describe('Phone Number Formatter', function (done) {
+describe('Phone Number Validator', function (done) {
   var sandbox;
 
   beforeEach(function () {
