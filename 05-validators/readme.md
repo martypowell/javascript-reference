@@ -13,7 +13,6 @@ To use include the the code from the [validators.js](validators.js)
 * 123-456-7890
 * 123.456.7890
 * 1234567890 (string and number)
-* 19114443333 (string and number)
 
 **Usage**
 
