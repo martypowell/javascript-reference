@@ -17,6 +17,8 @@ formatters.format('phoneNumber', '222-222-2222', '(xxx) xxx-xxxx'); //Result: (2
 
 formatters.format('phoneNumber', '2222222222', '(xxx) xxx-xxxx'); //Result: (222) 222-2222
 
+formatters.format('phoneNumber', 2222222222, '(xxx) xxx-xxxx'); //Result: (222) 222-2222
+
 formatters.format('phoneNumber', '(222) 222-2222', 'xxx-xxx-xxxx'); //Result: 222-222-2222
 
 formatters.format('phoneNumber', '(222) 222-2222', 'xxxxxxxxxx'); //Result: 2222222222

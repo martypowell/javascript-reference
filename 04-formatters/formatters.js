@@ -1,8 +1,12 @@
 var formatters = (function () {
   var _formatters = {
-    phoneNumber: function (str, format) {
+    phoneNumber: function (input, format) {
+      if (typeof input === 'number') {
+        input = input.toString();
+      }
+
       var exp = /\d+/g;
-      var numbersOnly = str.match(exp).join('').split('');
+      var numbersOnly = input.match(exp).join('').split('');
       var numberOfXs = format.split('').filter(function (char) {
         return char === 'x';
       }).length;
