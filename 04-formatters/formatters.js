@@ -12,7 +12,7 @@ var formatters = (function () {
       if (hasOneAsPrefix) {
         numbersOnly.shift();
       }
-      
+
       if (numberOfXs === numbersOnly.length || hasOneAsPrefix) {
         numbersOnly.forEach(function (number) {
           format = format.replace('x', number);

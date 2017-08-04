@@ -5,6 +5,21 @@ var sinon = require('sinon');
 var formatters = require('../../04-formatters/formatters.js');
 
 describe('Phone Number Formatter', function (done) {
+  var sandbox;
+
+  beforeEach(function () {
+    // create a sandbox
+    sandbox = sinon.sandbox.create();
+
+    // stub some console methods
+    sandbox.stub(console, "error");
+  });
+
+  afterEach(function () {
+    // restore the environment as it was before
+    sandbox.restore();
+  });
+
 
   it('should return the given format xxx-xxx-xxxx', function (done) {
     var input = "(911) 911-4545";
@@ -46,14 +61,14 @@ describe('Phone Number Formatter', function (done) {
     done();
   });
 
-   it('should return nothing when there it\'s not possible to format the number and log an error to the console', function (done) {
+  it('should return nothing when there it\'s not possible to format the number and log an error to the console', function (done) {
     var input = "91-911-4545";
     var format = "(xxx) xxx-xxxx";
     var actual = formatters.format('phoneNumber', input, format);
     //TODO: check if teh error is thrown to the console
     expect(actual).to.eql(null);
-
+    sinon.assert.calledOnce(console.error);
     done();
-  }); 
+  });
 
 });
