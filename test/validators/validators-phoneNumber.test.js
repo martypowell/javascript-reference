@@ -77,6 +77,15 @@ describe('Phone Number Validator', function (done) {
     done();
   });
 
+  /* it('should be valid if the given format is xxxxxxxxxxx', function (done) {
+    var input = "11234567890";
+    var actual = validators.validate('phoneNumber', input);
+
+    expect(actual).to.eql(true);
+
+    done();
+  }); */
+
   it('should be valid if the given format is +xxxxxxxxxx', function (done) {
     var input = "+31636363634";
     var actual = validators.validate('phoneNumber', input);
