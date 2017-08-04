@@ -6,7 +6,7 @@ The purpose of this code is to allow you to quickly convert one datatype that ha
 
 To use include the the code from the [formatters.js](formatters.js)
 
-**Examples**
+**Usage**
 
 ```javascript
 formatters.format('phoneNumber', '222-222-2222', '(xxx) xxx-xxxx'); //Result: (222) 222-2222
