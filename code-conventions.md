@@ -1,6 +1,8 @@
 ## Coding Conventions
 
-Additions to the [Airbnb Style Guide ](https://github.com/airbnb/javascript). The goal of this document is to improve the quality of our code by making it more readable and more maintainable.
+In general use the [Airbnb Style Guide ](https://github.com/airbnb/javascript). This page supplements that style guide.
+
+The goal of this document is to improve the quality of our code by making it more readable and more maintainable.
 
 ### Using Keyboard Events
 
@@ -33,4 +35,4 @@ function myKeyDownFunction(event) {
 }
 ```
 
-*Note:* According to [MDN](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) the KeyboardEvent.keyCode is depricated and will be replaced with [KeyboardEvent.key](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)
+*Note:* According to [MDN](https://developer.mozilla.org/en-US/) the [KeyboardEvent.keyCode](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) is depricated and will be replaced with [KeyboardEvent.key](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)
