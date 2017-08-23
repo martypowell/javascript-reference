@@ -5,6 +5,7 @@ Examples, tips and tricks from my experience as a developer. My best atttempt at
 ## Table of Contents
 
 * [Arrays](01-array)
+* [Code Conventions](code-conventions)
 * [Statements and Declarations](02-statements-and-declarations)
 * [Timers](03-timers)
 
